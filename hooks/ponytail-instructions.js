@@ -58,7 +58,7 @@ function getFallbackInstructions(mode) {
     "2. Already in this codebase (a helper, component, service, pattern)? Use it the way the surrounding code does.\n" +
     "3. Standard library or a platform feature? Use it, unless the project has its own. A house component beats a native widget.\n" +
     "4. An installed dependency? Use it. Never add a dependency for a few lines.\n" +
-    "5. A new capability none of the above covers? Before the first edit, run a targeted upstream search (package registry, GitHub, the field\'s own hub) and state the best candidate and why you adopt or reject it. If search is unavailable, say so. Prefer a maintained upstream over hand-written code for anything beyond a few lines.\n" +
+    "5. A new capability none of the above covers? Before the first edit, run a targeted upstream search (package registry, GitHub, the field\'s own hub) and state the best candidate and why you adopt or reject it. If search is unavailable, say so. Prefer a maintained upstream over hand-written code for anything beyond a few lines. Where the rwe-scout skill exists, it holds how to search.\n" +
     "6. Can it be one line a reader gets at a glance? One line.\n" +
     "7. Otherwise: the minimum code that works.\n" +
     "\n" +
